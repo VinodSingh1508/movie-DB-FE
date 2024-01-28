@@ -1,0 +1,17 @@
+.tableHeader {
+    font-weight: bold;
+}
+
+.tableBody {
+    font-style: italic;
+}
+
+.tableBody a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0d6efd;
+}
+
+.tableBody a:hover {
+    text-decoration: underline;
+}

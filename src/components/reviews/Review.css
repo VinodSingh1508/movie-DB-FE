@@ -1,0 +1,11 @@
+.reviewBy {
+    font-size: x-small;
+    margin-top: auto !important;
+    margin-left: auto;
+    text-align: right;
+    word-break: break-all;
+}
+
+.reviewContent{
+    word-break: break-all;
+}

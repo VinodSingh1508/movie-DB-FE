@@ -1,0 +1,20 @@
+.movie-poster{
+    height: 300px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.poster-image{
+    height: 100%;
+    width: 100%;
+
+}
+
+.empty-watchlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }

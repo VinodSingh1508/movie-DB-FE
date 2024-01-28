@@ -1,0 +1,58 @@
+/* RegistrationForm.css */
+
+/* Center the form within the modal */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Set the background color for the modal content */
+  .modal-content {
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  
+  /* Style form labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style form inputs */
+  .form-control {
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  /* Style form buttons */
+  .modal-footer button {
+    margin-right: 10px;
+  }
+  
+  /* Style error messages */
+  .error {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .modal-footer button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .modal-footer button[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+  }
+
+  .formError {
+    display: inline-block;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+    font-weight: bold;
+    font-style: italic;
+  }
